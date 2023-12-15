@@ -1,0 +1,28 @@
+{
+  "name": "backend",
+  "type": "module",
+  "version": "1.0.0",
+  "description": "backend to serve todo data",
+  "main": "index.js",
+  "scripts": {
+    "dev": "nodemon index.js",
+    "test": "mocha --exit test.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "n"
+  },
+  "author": "coby",
+  "license": "UNLICENSED",
+  "devDependencies": {
+    "chai": "^4.3.10",
+    "chai-http": "^4.4.0",
+    "mocha": "^10.2.0",
+    "nodemon": "^3.0.2",
+    "zod": "^3.22.4"
+  },
+  "dependencies": {
+    "express": "^4.18.2",
+    "sqlite3": "^5.1.6"
+  }
+}
